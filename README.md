@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Challenge #1 - Infinite-Scroll
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple overview of use/purpose.
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+<p><strong>Prompt:</strong> Pinterest is one of the most well-designed applications on the web that has you scrolling for hours! We’d love for you to implement this infinite scroll feature. Given a static dataset (JSON) of Pinterest Pins, design and implement a page that shows all the pins and allows infinite scrolling, reusing the Pins as needed. The implementation should be done in a modular way so that the rendering of Pins could be easily reused in other pages and this page could be given other widgets to arrange on the page and support infinite scrolling.</p>
 
-### `yarn start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Dependencies
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* ex. Windows 10
 
-### `yarn test`
+### Installing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* How/where to download your program
+* Any modifications needed to be made to files/folders
 
-### `yarn build`
+### Executing program
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Help
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
 
-### `yarn eject`
+## Authors
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Contributors names and contact info
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Version History
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* 0.2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
+* 0.1
+    * Initial Release
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
