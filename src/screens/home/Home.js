@@ -1,44 +1,26 @@
 import { useState, useEffect } from "react";
+import styled from "styled-components";
 import InfiniteScroll from "react-infinite-scroll-component";
-// import useInfiniteScroll from "@closeio/use-infinite-scroll";
 import ttpPins from "../../services/nyc_ttp_pins.json";
 import PinList from "../../components/pinList/PinList";
 
-const styles = {
-  homeWrapper: {
-    display: "flex",
-    width: "100%",
-    height: "100%",
-    marginTop: 15,
-    justifyContent: "center",
-  },
-  pinListContainer: {
-    maxWidth: 1260,
-    columnCount: 5,
-    columnGap: 10,
-    margin: "0 auto",
-    height: "100%",
-  },
-};
+const HomeScreen = styled.div`
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  justify-content: center;
+`;
+
+const PinContainer = styled.div`
+  column-count: 5;
+  column-gap: 5px;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 1260px;
+`;
+
 const Home = () => {
-  // const [showMore, setShowMore] = useState(false);
-  // const [page, setPage] = useState(1);
-  // const [hasMore, setHasMore] = useState(true);
-  // const [refresh, setRefrsh] = useState(true);
-
-  // const showPins = () => {
-  //   setShowMore(!showMore);
-  // };
-  // const [items, setItems] = useState([]);
-  // const [hasMore, setHasMore] = useState(false);
-  // const [page, loaderRef, scrollerRef] = useInfiniteScroll({ hasMore });
-
-  // useEffect(async () => {
-  //   const data = ttpPins;
-  //   setHasMore(data.hasMore);
-  //   setItems((prev) => [...prev, data.items]);
-  // }, [page]);
-
   const [pins, setPins] = useState([]);
   const [showMore, setShowMore] = useState(false);
   console.log(pins);
@@ -60,8 +42,8 @@ const Home = () => {
   };
 
   return (
-    <div styles={styles.homeWrapper}>
-      <div styles={styles.pinListContainer}>
+    <HomeScreen>
+      <PinContainer>
         <InfiniteScroll
           dataLength={pins}
           next={() => fetchPins(5)}
@@ -70,8 +52,8 @@ const Home = () => {
         >
           {showMore ? renderPins() : ""}
         </InfiniteScroll>
-      </div>
-    </div>
+      </PinContainer>
+    </HomeScreen>
   );
 };
 

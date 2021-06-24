@@ -70,7 +70,11 @@ const TodayButton = styled(Buttons)`
     background-color: #efefef;
   }
 `;
-
+const SearchAction = styled.div`
+  flex: 1 1 auto;
+  margin-right: 18px;
+  margin-left: 8px;
+`;
 const IconButtons = styled.div`
   display: flex;
   height: 48px;
@@ -101,6 +105,7 @@ const MenuButton = styled.div`
   min-width: 24px;
   align-items: center;
   justify-content: center;
+  margin-right: 12px;
   border-radius: 24px;
   cursor: pointer;
   :hover {
@@ -116,7 +121,6 @@ const Header = () => {
           <img src={logo} alt="" style={{ width: 24 }} />
         </LogoButton>
       </Logo>
-
       <HomeButton>
         <NavLink exact to={"/"}>
           Home
@@ -127,7 +131,9 @@ const Header = () => {
           Today
         </NavLink>
       </TodayButton>
-      <Search />
+      <SearchAction>
+        <Search />
+      </SearchAction>
       <IconButtons>
         <img src={bell} alt="" />
       </IconButtons>

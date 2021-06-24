@@ -37,7 +37,7 @@ const Search = () => {
   return (
     <SearchBar>
       <form>
-        <img src={magnify} alt="" style={{ width: 16 }} />
+        <img src={magnify} alt="" style={{ width: 16, marginLeft: 6 }} />
         <input placeholder="Search" />
       </form>
     </SearchBar>
