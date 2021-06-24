@@ -1,6 +1,6 @@
 # Challenge #1 - Infinite-Scroll
 
-## <div align="center">![Pintrest Logo](src/images/pinterest-logo.png) </div>
+## <div align="center">![Pintrest Logo](src/images/icons+logos/pinterest-logo.png) </div>
 
 ## Description
 
