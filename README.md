@@ -1,6 +1,6 @@
 # Challenge #1 - Infinite-Scroll
 
-## <div align="center">![Pintrest Logo](src/images/Pinterest-logo.png) </div>
+## <div align="center">![Pintrest Logo](src/images/pinterest-logo.png) </div>
 
 ## Description
 
@@ -10,13 +10,16 @@
 
 ### Installing
 
-* clone the repository
-* Any modifications needed to be made to files/folders
+* Copy Repository code
+* Clone to your local machine
+* Install all dependacies
+```
+yarn 
+```
 
 ### Executing program
 
 * How to run the program
-* Step-by-step bullets
 ```
 code blocks for commands
 ```
@@ -25,6 +28,6 @@ code blocks for commands
 
  | Angel B. Fernandez                                                                                                                                                           |
  | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
- | ![Angel](src/images/angel_photo.jpg)                                                                                                                                         |
+ | <div align="center">![Angel](src/images/angel-photo.jpg)</div>                                                                                                               |
  | [![GitHub][github-shield]](https://github.com/Avixph)                                  [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/angelbienvenidofernandez/) |
 
