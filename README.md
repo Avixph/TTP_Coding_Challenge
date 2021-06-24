@@ -29,5 +29,5 @@ yarn start
  | Angel B. Fernandez                                                                                                                                                           |
  | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
  | <div align="center">![Angel](src/images/angel-photo.jpg)</div>                                                                                                               |
- | [![GitHub][github-shield]](https://github.com/Avixph)                                  [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/angelbienvenidofernandez/) |
+ | [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/angelbienvenidofernandez/) [![GitHub][github-shield]](https://github.com/Avixph) |
 
